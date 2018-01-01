@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">MisContactos</string>
+
+    <string name="tvNombre">Nombre</string>
+    <string name="tvFecha">Fecha de nacimiento</string>
+    <string name="tvTelefono">Teléfono</string>
+    <string name="tvEmail">Correo Electrónico</string>
+    <string name="tvDescripcion">Descripción</string>
+
+    <string name="btn_siguiente">SIGUIENTE</string>
+
+    <string name="tvNombreContacto">Nombre</string>
+    <string name="tvFechaContacto">Fecha de nacimiento</string>
+    <string name="tvTelefonoContacto">Teléfono</string>
+    <string name="tvEmailContacto">Correo Electrónico</string>
+    <string name="tvDescripcionContacto">Descripción</string>
+
+    <string name="btn_editar_datos">EDITAR INFORMACIÓN</string>
 </resources>

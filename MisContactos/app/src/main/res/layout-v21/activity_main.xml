@@ -14,50 +14,50 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/etNombre"
+            android:id="@+id/editTextNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="25dp"
             android:layout_marginTop="25dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/tvNombre" />
+            android:text="Nombre completo" />
 
         <EditText
-            android:id="@+id/etFecha"
+            android:id="@+id/editTextFecha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="25dp"
             android:ems="10"
             android:inputType="date"
-            android:text="@string/tvFecha" />
+            android:text="Fecha de nacimiento" />
 
         <EditText
-            android:id="@+id/etTelefono"
+            android:id="@+id/editTextTelefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="25dp"
             android:ems="10"
             android:inputType="phone"
-            android:text="@string/tvTelefono" />
+            android:text="Teléfono" />
 
         <EditText
-            android:id="@+id/etEmail"
+            android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="25dp"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:text="@string/tvEmail" />
+            android:text="Correo Electrónico" />
 
         <EditText
-            android:id="@+id/etDescripcion"
+            android:id="@+id/editTextDescripcion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="25dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/tvDescripcion" />
+            android:text="Descripción del contacto" />
 
     </LinearLayout>
 
@@ -67,7 +67,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:gravity="center"
-        android:text="@string/btn_siguiente" />
+        android:text="Siguiente"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:theme="@android:style/Widget.Material.Light.Button.Inset" />
 
 
 </RelativeLayout>
